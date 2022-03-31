@@ -1,13 +1,13 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.9.7
+# FROM python:3.9.7
 
-RUN pip install pipenv
+# RUN pip install pipenv
 
-ENV PROJECT_DIR /UrHeart--SE-47-Backend
+# ENV PROJECT_DIR /UrHeart--SE-47-Backend
 
-WORKDIR ${PROJECT_DIR}
+# WORKDIR ${PROJECT_DIR}
 
-COPY Pipfile Pipfile.lock ${PROJECT_DIR}/
+# COPY Pipfile Pipfile.lock ${PROJECT_DIR}/
 
-RUN pipenv install --system --deploy
+# RUN pipenv install --system --deploy
